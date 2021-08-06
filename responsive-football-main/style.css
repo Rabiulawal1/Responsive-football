@@ -6,21 +6,38 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    width: 1440px;
 }
 
-/* players ..................
-...........................*/
+/* container............... 
+......................... */
+.container{
+    padding-left: 180px;
+    padding-right: 210px;
+}
 
+/* players ..........................................................
+...................................................................*/
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-left: 180px;
+    grid-gap: 30px;
+    
 }
 .player{
     width: 330px;
     height: 474px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 
+/* player details .....................................................
+.................................................................... */
+.player-image{
+    width: 300px;
+    height: 396px;
+    padding: 15px;
+}
 .player img{
     width: 300px;
     height: 256px;
